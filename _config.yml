@@ -1,0 +1,16 @@
+# Site settings
+title: Erwin's Personal Blog
+header-img: img/home-bg.jpg
+email: erwin.embsen@gmail.com
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: eembsen
+github_username:  eembsen
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
