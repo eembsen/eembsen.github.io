@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "Dinosaurs are extinct today"
-subtitle:   "because they lacked opposable thumbs and the brainpower to build a space program."
-date:       2014-06-10 12:00:00
-author:     "Start Bootstrap"
+title:      "My first personal blog"
+subtitle:   "and hosted free on Github"
+date:       2015-12-04 20:55:23
+author:     "Erwin Embsen"
 header-img: "img/post-bg-01.jpg"
 ---
 

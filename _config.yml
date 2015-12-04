@@ -1,10 +1,10 @@
 # Site settings
 title: Erwin's Personal Blog
-header-img: img/home-bg.jpg
+header-img: img/container-ship.jpg
 email: erwin.embsen@gmail.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "My personal technical ramblings!"
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://www.ecsn.nl"
 twitter_username: eembsen
 github_username:  eembsen
 
