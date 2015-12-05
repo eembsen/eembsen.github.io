@@ -14,7 +14,7 @@ such that no software installations outside of Docker were needed to get things 
 <h2 class="section-heading">The past</h2>
 
 <p>Not so long ago, I used logstash forwarder to ship application logs to logstash "processors" which in turn streamed
-their output into elasticsearch. Very recently, logstash forwarder has been replaced by Filebeat, part of the new
+their output into Elasticsearch. Very recently, logstash forwarder has been replaced by Filebeat, part of the new
 <a href="https://www.elastic.co/blog/beats-1-0-0">Beats platform</a>. The chaining of the application, filebeat,
 logstash and elasticsearch could be as straightforward as shown below:<p>
 
@@ -22,7 +22,7 @@ logstash and elasticsearch could be as straightforward as shown below:<p>
     <img src="{{ site.baseurl }}/img/docker-filebeat-elasticsearch.jpg" alt="Chaining application, filebeat, logstash and elasticsearch">
 </a>
 
-<p>The arrows show how data flows through various components.</p>
+<p>The arrows show how application log data flows through various components.</p>
 
 <h2 class="section-heading">The present</h2>
 
