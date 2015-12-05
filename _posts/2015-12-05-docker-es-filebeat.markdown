@@ -78,7 +78,7 @@ ADD filebeat.yml /etc/filebeat/filebeat.yml
 ENTRYPOINT ["/usr/bin/filebeat", "-e", "-v", "-c", "/etc/filebeat/filebeat.yml"]
 </pre>
 
-<p>If you want to build the filebeat container yourself you can check out my <a href="https://github.com/eembsen/docker-filebeat">GitHub project</a>.<p>
+<p>If you want to build the Filebeat container yourself you can check out my <a href="https://github.com/eembsen/docker-filebeat">GitHub project</a>.<p>
 
 <p>Ok, we are all set. Let's fire up the 3 containers using the following commands:<p>
 
@@ -92,7 +92,7 @@ docker run --detach --name=docker-filebeat -v /var/lib/docker:/var/lib/docker --
 
 <h2 class="section-heading">The future</h2>
 
-<p>This solution leaves some things to be desired. Probably the most important thing is that Docker log files are
+<p>This solution leaves a couple of things to be desired. Probably the most important thing is that Docker log files are
 accessed directly by Filebeat through a bind mount. If Docker decides to alter their implementation then it might break
 the recipe presented here.</p>
 
