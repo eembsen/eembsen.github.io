@@ -103,4 +103,4 @@ id. Furthermore, Filebeat currently lacks multiline support. It's on the agenda 
 <p>Currently, Filebeat either reads log files line by line or reads standard input. A JSON prospector would safe us a
 logstash component and processing, if we just want a quick and simple setup.</p>
 
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+<p>Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
