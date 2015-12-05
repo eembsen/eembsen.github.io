@@ -96,9 +96,9 @@ docker run --detach --name=docker-filebeat -v /var/lib/docker:/var/lib/docker --
 accessed directly by Filebeat through a bind mount. If Docker decides to alter their implementation then it might break
 the recipe presented here.</p>
 
-<p>Also, containers will not show up in Kibana by their name but by id. It would be nice to have a name instead of an
-id. Furthermore, Filebeat currently lacks multiline support. It's on the agenda and filed under
-<a href="https://github.com/elastic/filebeat/issues/301">issue 301</a> so I guess we have to wait a little.<p>
+<p>Another thing is that containers do not show up in Kibana by their name but by id. It would be nice to have a name
+instead of an id. Furthermore, Filebeat currently lacks multiline support. It's on Elastic's agenda and filed under
+<a href="https://github.com/elastic/filebeat/issues/301">issue 301</a> so we have to wait.<p>
 
 <p>Currently, Filebeat either reads log files line by line or reads standard input. A JSON prospector would safe us a
 logstash component and processing, if we just want a quick and simple setup.</p>
