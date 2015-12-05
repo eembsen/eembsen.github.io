@@ -7,6 +7,6 @@ author:     "Erwin Embsen"
 header-img: "img/post-bg-01.jpg"
 ---
 
-<p>Most content on this site will be about IT related subjects. More specifically, most of it will be about Docker related stuff.</p>
+<p>Most content on this site is about IT related subjects. More specifically, most of it will be about Docker related stuff.</p>
 
 <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
